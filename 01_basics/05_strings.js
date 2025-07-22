@@ -15,7 +15,9 @@ console.log(`hello my name is ${name} ${name2}and my repocount is ${repoCount}`)
 const newName= new String('varmaRahul')
 console.log(newName);
 
-console.log(newName[2]);//accesing number position
+console.log(newName[2]);
+
+//accesing number position
 console.log(newName.__proto__);//to finding prototype [object will come in return{}]
 console.log(newName.length);//length=10
 console.log(newName.toUpperCase());//VARMARAHUL
@@ -50,4 +52,15 @@ const URL = "https://hitesh.com/hitesh%20choudhary"
 
 console.log(URL.replace("%20","_"));//it will replace the given_value to replace_value.
 
-console.log(URL.includes('hitesh'));// it will check 'hitesh' is present or not and return boolean datareturn
+console.log(URL.includes('hitesh'));// it will check 'hitesh' is present or not and return boolean data_return 
+
+//kisi string ko array me kaise karte hai aur [split] method ka use 
+//LINK:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
+const stringNew="shyam ram mohan sita"
+console.log(stringNew.split('_'));
+
+const word =stringNew.split(" ")
+console.log(word[2]);
+
+const char =stringNew.split("")
+console.log(char[2]);
