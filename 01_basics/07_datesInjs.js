@@ -20,6 +20,7 @@
 // console.log(myNewCreatedDate.toDateString());
 
 // //+++++++++++ timeStamp +++++++++++
+
 // let myTimeStamp=Date.now()
 // console.log(myTimeStamp);//output in milisecond
 // console.log(myNewCreatedDate.getTime());

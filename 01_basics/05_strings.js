@@ -25,7 +25,7 @@ console.log(newName.charAt(2));// r
 console.log(newName.indexOf('r'));// 2 [position of index]
 
 
-//break string in substring(OR slicing)
+//method to break string by using substring(OR slicing)
 const newstring =newName.substring(0,4)
 console.log(newstring);
 
