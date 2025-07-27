@@ -63,3 +63,28 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));//output=arrays , which is very important for projcts.
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));//to kyii baar properties ko use krne se phle hmm phle check kr lenge ki wah avilabe hai ki nhi uske baad use karenge to sahi rahega!
+
+
+//important[destructuring]
+
+const course ={
+  coursename:"js in hindi",
+  price:"999",
+  courseInstructor:"Hitesh"
+}
+
+// course.courseInstructor
+const {courseInstructor} = course
+console.log(courseInstructor);//yeh accha trikaa hai humee baar-baar hume course ke under jaake aur course instructor ko lena nhi padega directly courseInstructor lekr ho jayega.
+
+//aur itna hi nhi humm agr courseInstructor bada name lag raha hai to usko khudd se name bhii change kar sakte aur change name se usko print kara sakte.ex[courseInstructor:Inst]
+
+const{courseInstructor:instr}=course
+console.log(instr);
+
+    //API {json} structure
+// {
+//   name:"rahul",
+//   coursename:"js in hindi",
+//   price:"free"
+// }
